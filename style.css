@@ -152,6 +152,9 @@ html[dir="rtl"] .content .stat { padding-right:14px; padding-left:0; border-righ
 .ai-tab { border-color:rgba(242,107,91,.25) !important; }
 .ai-tab b { color:var(--coral) !important; }
 .ai-notice { margin:0 0 16px; padding:11px 13px; border:1px solid rgba(242,107,91,.28); border-radius:4px; color:var(--coral); background:rgba(242,107,91,.06); font-size:12px; line-height:1.6; }
+.ai-mode { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px; }
+.ai-mode .choice { display:grid; gap:4px; text-align:start; }
+.ai-mode .choice small { color:var(--muted); font-size:10px; font-weight:400; }
 .ai-chat { min-height:300px; max-height:460px; overflow:auto; display:flex; flex-direction:column; gap:12px; padding:4px; }
 .ai-empty { display:grid; place-items:center; align-content:center; min-height:270px; color:var(--muted); text-align:center; }
 .ai-empty strong { display:grid; place-items:center; width:54px; height:54px; margin-bottom:12px; color:#fff; background:var(--coral); border-radius:16px 4px 16px 4px; font-size:28px; }
